@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A7 Contacto</title>
+    <link rel="shortcut icon" href="../img/icons/area7_logo2.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <!--aqui va el menu de navegacion-->
+        <nav>
+            <a href="../index.html"><img class="logo" src="../img/icons/area7_logo2.png" alt="logo"></a>
+            
+            <ul class="menu">
+                <li><a class="menu__links" href="../index.html"> Inicio</a></li>
+                <li><a class="menu__links" href="../pages/nosotras.html"> Nosotras</a></li>
+                <li><a class="menu__links" href="../pages/musica.html"> Música </a> </li>
+                <li><a class="menu__links" href="../pages/noticias.html"> Noticias</a> </li>
+                <li><a class="menu__links" href="../pages/galeria.html"> Galería </a></li>
+                <li><a class="menu__links" href="../pages/contacto.html"> Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Aaqui va el formulario de contacto-->
+        <form class="formulario">
+            <h1>Contacto</h1>
+
+            <fieldset class="contacto">
+                <legend>
+                    <h2>Escríbenos</h2>
+                </legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ingrese su Nombre" id="nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo</label>
+                    <input type="email" placeholder="Correo" id="correo">
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" placeholder="Teléfono" id="telefono">
+                </div>
+                <br>
+                <div>
+                    <textarea class="contacto__mensaje" placeholder="Envíanos un mensaje" cols="40" rows="10">
+          </textarea>
+                    <br>
+                    <input class="contacto__button" type="submit" value="Enviar mensaje">
+                    <input class="contacto__button"type="reset" value="Limpiar todo">
+                </div>
+
+            </fieldset>
+
+            <img class="contacto__image" src="../img/fotos-area7-personales/hermanas2.jpeg" alt="fotoGrupal">
+
+        </form>
+    </main>
+    
+    <!--pie de pagina-->
+    <footer>
+        <section class="footer">
+
+            <div>
+                <p> © Copyright Area7 2023 todos los derechos reservados.</p>
+            </div>
+            <br>
+            <div>
+                <p><a href="https://www.instagram.com/area7peru/" target="_blank">
+                        <img class=footer__icon src="../img/icons/instagram.png" alt="iconoIG">
+                    </a>
+
+                    <a href="https://www.facebook.com/comunaarea7" target="_blank">
+                        <img class=footer__icon src="../img/icons/facebook (1).png" alt="iconoFB">
+                    </a>
+                </p>
+            </div>
+
+        </section>
+    </footer>
+
+</body>
+
+</html>
