@@ -79,7 +79,8 @@ h1 {
     font-size: 150%;
 }
 
-h4 {font-family: Arial, Helvetica, sans-serif;
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 100%;
     color: white;
@@ -271,28 +272,94 @@ h3 {
     border-right: 10px solid yellow;
     display: inline-block
 }
-   
+
 
 
 /*Galeria*/
 
-.galeria {
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    row-gap: 1px;
+    column-gap: 2%;
+    color: white;
+
+    grid-template-areas:
+        "diana   fatima   katia"
+        "daniela grupo1  grupo1"
+        "grupo2  grupo2  grupo3"
+        "grupo2  grupo2  grupo4";
+}
+
+.diana {
+    grid-area: diana;
     padding: 2%;
-    display: inline-block;
+}
+
+.fatima {
+    grid: fatima;
+    padding: 2%;
+
+}
+
+.katia {
+    grid-area: katia;
+    padding: 2%;
+
+}
+
+.daniela {
+    grid-area: daniela;
+    padding: 4%;
+
+}
+
+.grupo1 {
+    grid-area: grupo1;
+
+}
+
+.grupo2 {
+    grid-area: grupo2;
+    padding: 0.8%;
+
+}
+
+.grupo3 {
+    grid-area: grupo3;
+    padding: 1%;
+
+}
+
+.grupo4 {
+    grid-area: grupo4;
+    padding: 1%;
+
+}
+
+.galeria {
+
+    margin: 4%;
     text-align: center;
+
 }
 
 .galeria img {
-    width: 20%;
-    margin: 10px;
+    width: 100%;
     border-radius: 10px;
 
 }
 
-.galeria iframe {
-    width: 20%;
-    margin: 10px;
-    border-radius: 10px;
+.videoclips {
+    text-align: center;
+    display: flexbox;
+
+}
+
+.videoclips iframe {
+    padding: 1%;
+    border-radius: 20px;
 }
 
 
@@ -333,11 +400,32 @@ input {
     border-radius: 10px;
     color: white;
     font-family: Arial
-
 }
 
 .contacto__button {
     border-radius: 10px;
     padding: 1%;
+
+}
+
+
+@media screen and (max-width:767px)
+ {
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "diana"
+            "fatima"
+            "katia"
+            "daniela"
+            "grupo1"
+            "grupo2"
+            "grupo3"
+            "grupo4";
+    }
+    .daniela {
+        padding: 2%;
+
 
 }
