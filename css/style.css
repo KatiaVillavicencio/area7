@@ -178,7 +178,6 @@ h4 {
 
 .spotify {
     width: 600px;
-    padding-left: 30px;
     display: inline-block;
 }
 
@@ -408,10 +407,74 @@ input {
 
 }
 
+/*media queries*/
 
-@media screen and (max-width:767px)
- {
+@media screen and (max-width:767px) {
 
+    /*index*/
+    .logo {
+        width: 20%;
+    }
+
+    .ultimasNoticias {
+        font-size: 1rem;
+        width: 460px;
+    }
+
+    .mainImage {
+        width: 100%;
+
+    }
+
+    .mainvideo iframe {
+        width: 440px;
+    }
+
+
+    /*nosotras*/
+
+    .nosotras__fotos {
+
+        width: 450px;
+        border-radius: 10px;
+    }
+
+    .nosotras__article {
+
+        width: 90%;
+    }
+
+    .nosotras__article2 {
+
+        width: 90%;
+    }
+
+    /*musica*/
+
+    .spotify {
+        width: 450px;
+        padding-left: 0px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card2 {
+        width: 90%;
+    }
+
+    .derecha {
+        border-right: 10px solid yellow;
+        border-left: 0px solid yellow;
+    }
+
+    .izquierda {
+        border-left: 10px solid yellow;
+        border-right: 0px solid yellow;
+    }
+
+    /*galeria*/
     .grid {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -424,8 +487,9 @@ input {
             "grupo3"
             "grupo4";
     }
+
     .daniela {
         padding: 2%;
 
 
-}
+    }
