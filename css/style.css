@@ -418,7 +418,7 @@ input {
 
     .ultimasNoticias {
         font-size: 1rem;
-        width: 460px;
+        width: 400px;
     }
 
     .mainImage {
@@ -427,7 +427,7 @@ input {
     }
 
     .mainvideo iframe {
-        width: 440px;
+        width: 400px;
     }
 
 
@@ -435,33 +435,44 @@ input {
 
     .nosotras__fotos {
 
-        width: 450px;
+        width: 400px;
         border-radius: 10px;
+    }
+
+    #fotoInicios {
+        width: 400px;
     }
 
     .nosotras__article {
 
-        width: 90%;
+        width: 85%;
     }
 
     .nosotras__article2 {
 
-        width: 90%;
+        width: 85%;
     }
+
+    .integrantes__foto {
+        width: 18%;
+        margin: 1px;
+    }
+
 
     /*musica*/
 
     .spotify {
-        width: 450px;
+        width: 400px;
         padding-left: 0px;
     }
 
     .card {
-        width: 90%;
+        width: 85%;
+
     }
 
     .card2 {
-        width: 90%;
+        width: 85%;
     }
 
     .derecha {
@@ -474,8 +485,25 @@ input {
         border-right: 0px solid yellow;
     }
 
-    /*galeria*/
-    .grid {
+
+    /*noticias*/
+
+    .caja {
+        width: 85%;
+    }
+
+    .caja2 {
+        width: 85%;
+    }
+
+    .caja__imagen {
+        width: 40%;
+        margin: 2%;}
+.caja p iframe {
+    width: 350px}
+
+     /*galeria*/
+     .grid {
         grid-template-columns: 1fr;
         grid-template-areas:
             "diana"
@@ -490,7 +518,19 @@ input {
 
     .daniela {
         padding: 2%;
-
-
     }
+
+ /*contacto*/
+
+ .contacto {
+    
+    width: 80%;}
+
+    .contacto__image {
+        width: 80%;}
+      
+  
+
 }
+
+    
