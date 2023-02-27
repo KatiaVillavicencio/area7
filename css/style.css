@@ -36,6 +36,7 @@
 .mainImage {
     width: 80%;
     border-radius: 10px;
+    padding: 2px;
 
 }
 
@@ -104,6 +105,15 @@ h4 {
     color: white;
     font-size: 15px;
     font-family: 'Rock Salt', cursive;
+}
+
+/*index - animation*/
+.scale {
+    transition: 0.5s;
+}
+
+.scale:hover {
+    transform: scale(1.1);
 }
 
 
@@ -407,7 +417,7 @@ input {
 
 }
 
-/*media queries*/
+/******* media queries ******/
 
 @media screen and (max-width:767px) {
 
@@ -498,12 +508,15 @@ input {
 
     .caja__imagen {
         width: 40%;
-        margin: 2%;}
-.caja p iframe {
-    width: 350px}
+        margin: 2%;
+    }
 
-     /*galeria*/
-     .grid {
+    .caja p iframe {
+        width: 350px
+    }
+
+    /*galeria*/
+    .grid {
         grid-template-columns: 1fr;
         grid-template-areas:
             "diana"
@@ -520,17 +533,16 @@ input {
         padding: 2%;
     }
 
- /*contacto*/
+    /*contacto*/
 
- .contacto {
-    
-    width: 80%;}
+    .contacto {
+
+        width: 80%;
+    }
 
     .contacto__image {
-        width: 80%;}
-      
-  
+        width: 80%;
+    }
+
 
 }
-
-    
