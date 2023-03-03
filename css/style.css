@@ -357,8 +357,10 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     row-gap: 1px;
-    column-gap: 2%;
+    column-gap: 1%;
     color: white;
+    padding: 1%;
+    
 
     grid-template-areas:
         "diana   fatima   katia"
@@ -415,8 +417,8 @@ h3 {
 
 .galeria {
 
-    margin: 4%;
     text-align: center;
+
 
 }
 
@@ -433,8 +435,8 @@ h3 {
 }
 
 .videoclips iframe {
-    padding: 1%;
-    border-radius: 20px;
+    padding: 0.5%;
+    border-radius: 30px;
 }
 
 
@@ -494,7 +496,7 @@ input {
 
     .ultimasNoticias {
         font-size: 1rem;
-        width: 400px;
+        width: 390px;
     }
 
     .mainImage {
@@ -609,6 +611,8 @@ input {
     .contacto__image {
         width: 80%;
     }
-
+.videoclips iframe {
+    width:89%;
+}
 
 }
