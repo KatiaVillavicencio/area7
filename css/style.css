@@ -127,24 +127,27 @@ h4 {
 /*index - animation*/
 
 .fade-in-1 {
-	        animation: fade-in-1 1s linear both;
-        
+    animation: fade-in-1 1s linear both;
+
 }
+
 @keyframes fade-in-1 {
     0% {
-      opacity: 0;scale:90% ;
+        opacity: 0;
+        scale: 90%;
     }
-   
+
     50% {
-      opacity: 1;
+        opacity: 1;
     }
-    
+
     100% {
-      opacity: 2;scale:100%;
+        opacity: 2;
+        scale: 100%;
     }
-  }
-  
-  
+}
+
+
 
 /*nosotras*/
 
@@ -217,34 +220,36 @@ h4 {
 
 @keyframes fade-in-top {
     0% {
-      -webkit-transform: translateY(-50px);
-              transform: translateY(-50px);
-      opacity: 0;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
     }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-  }
 
-  .fade-in-top2 {
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-in-top2 {
     animation: fade-in-top2 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation-delay: 0.2s;
 }
 
 @keyframes fade-in-top2 {
     0% {
-      -webkit-transform: translateY(-50px);
-              transform: translateY(-50px);
-      opacity: 0;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
+}
 
 /*musica*/
 
@@ -360,7 +365,7 @@ h3 {
     column-gap: 1%;
     color: white;
     padding: 1%;
-    
+
 
     grid-template-areas:
         "diana   fatima   katia"
@@ -490,6 +495,12 @@ input {
 @media screen and (max-width:767px) {
 
     /*index*/
+
+    .menu li {
+        margin: 1% 2%;
+      
+    }
+       
     .logo {
         width: 20%;
     }
@@ -611,8 +622,9 @@ input {
     .contacto__image {
         width: 80%;
     }
-.videoclips iframe {
-    width:89%;
-}
+
+    .videoclips iframe {
+        width: 89%;
+    }
 
 }
