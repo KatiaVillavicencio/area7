@@ -24,19 +24,21 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
-    font-family: 'Rock Salt', Arial, Helvetica, sans-serif
+    font-family: 'Rock Salt', Arial, Helvetica, sans-serif;
+ 
 }
 
 .menu li {
     margin: 1px 20px;
     display: inline-block;
 
+
 }
 
 .mainImage {
     width: 80%;
     border-radius: 10px;
-    padding: 2px;
+    padding-bottom: 9px;
 
 }
 
@@ -50,13 +52,14 @@
     width: 500px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    border-right: 10px solid yellow;
+    border-left: px solid yellow;
     padding-inline: 20px;
     border-radius: 4px;
     display: inline-block;
     text-align: justify;
     line-height: 26px;
 }
+.card 
 
 .ultimasNoticias a {
     text-decoration: none;
@@ -148,17 +151,18 @@ h4 {
 }
 
 
-
 /*nosotras*/
 
 .nosotras {
     text-align: center;
+ 
 }
 
 .nosotras__fotos {
     color: white;
     width: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 1%;
 }
 
 .fotoInicios {
@@ -175,12 +179,13 @@ h4 {
     display: inline-block;
     text-align: center;
     border-left: 10px solid yellow;
+ 
     
 }
 
 .nosotras__article2 {
     color: white;
-    width: 80%;
+    width: 60%;
     margin: 40px 30px 20px 40px;
     padding: 30px;
     border-radius: 10px;
@@ -192,6 +197,7 @@ h4 {
 
 .integrantes {
     color: white;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     text-align: center;
@@ -270,6 +276,7 @@ h4 {
     display: inline-block;
     text-align: center;
     border-left: 10px solid yellow;
+    background-color: black;
 }
 
 .card__image {
@@ -300,6 +307,7 @@ h4 {
     display: inline-block;
     text-align: center;
     border-right: 10px solid yellow;
+    background-color: black;
 }
 
 
@@ -352,7 +360,6 @@ h3 {
     border-right: 10px solid yellow;
     display: inline-block
 }
-
 
 
 /*Galeria*/
@@ -430,6 +437,7 @@ h3 {
 .galeria img {
     width: 100%;
     border-radius: 10px;
+    
 
 }
 
@@ -444,31 +452,48 @@ h3 {
     border-radius: 30px;
 }
 
+/*Galeri animaciones*/
+
+.rotate img{
+    transition:  1s;
+    object-fit: cover;
+   
+}
+.rotate img:hover{
+    transform:rotate(2deg); 
+    scale:1.2;
+
+
+
+
+}
 
 /*Contacto*/
 
 .formulario {
     text-align: center;
+   
 }
 
 .contacto {
     color: white;
-    width: 40%;
+    width: 50%;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 20px;
-    margin: 5px 30px;
+    padding: 5px;
+    margin: 5px 10px;
     border: solid yellow 1px;
     border-radius: 3%;
-    padding-top: 5%;
+    padding-top: 2%;
     display: inline-block;
+    
 }
 
 .contacto__image {
-    width: 30%;
+    width: 40%;
     border-radius: 2%;
-    margin: 10px;
+    margin: 5px;
     display: inline-block;
 
 }
@@ -516,7 +541,7 @@ input {
     }
 
     .mainvideo iframe {
-        width: 400px;
+        width: 89%
     }
 
 
