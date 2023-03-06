@@ -161,8 +161,6 @@ h4 {
     padding-inline: 20%;
 }
 
-
-
 .nosotras__fotos {
     color: white;
     width: 200px;
@@ -471,7 +469,6 @@ h4 {
 }
 
 
-
 /*Contacto*/
 
 .formulario {
@@ -535,7 +532,7 @@ input {
         width: 100%;
 
     }
-    
+
     .card-body {
         width: 80%;
     }
