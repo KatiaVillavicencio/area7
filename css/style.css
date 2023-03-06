@@ -25,7 +25,7 @@
     color: white;
     font-size: 20px;
     font-family: 'Rock Salt', Arial, Helvetica, sans-serif;
- 
+
 }
 
 .menu li {
@@ -59,9 +59,8 @@
     text-align: justify;
     line-height: 26px;
 }
-.card 
 
-.ultimasNoticias a {
+.card .ultimasNoticias a {
     text-decoration: none;
     font-weight: bold;
     color: yellow;
@@ -155,7 +154,13 @@ h4 {
 
 .nosotras {
     text-align: center;
- 
+
+}
+
+.slide {
+    width:65%;
+    position: relative;
+    padding-left: 35%;
 }
 
 .nosotras__fotos {
@@ -165,10 +170,6 @@ h4 {
     padding: 1%;
 }
 
-.fotoInicios {
-    width: 447px;
-
-}
 
 .nosotras__article {
     color: white;
@@ -179,8 +180,8 @@ h4 {
     display: inline-block;
     text-align: center;
     border-left: 10px solid yellow;
- 
-    
+
+
 }
 
 .nosotras__article2 {
@@ -192,7 +193,7 @@ h4 {
     display: inline-block;
     text-align: center;
     border-right: 10px solid yellow;
-    
+
 }
 
 .integrantes {
@@ -325,6 +326,10 @@ h3 {
     border-radius: 5%;
 }
 
+h4 {
+    line-height: 25px;
+}
+
 .caja {
     box-sizing: border-box;
     width: 60%;
@@ -437,7 +442,7 @@ h3 {
 .galeria img {
     width: 100%;
     border-radius: 10px;
-    
+
 
 }
 
@@ -454,25 +459,24 @@ h3 {
 
 /*Galeri animaciones*/
 
-.rotate img{
-    transition:  1s;
+.rotate img {
+    transition: 1s;
     object-fit: cover;
-   
-}
-.rotate img:hover{
-    transform:rotate(2deg); 
-    scale:1.2;
-
-
-
 
 }
+
+.rotate img:hover {
+    transform: rotate(2deg);
+    scale: 1.2;
+}
+
+
 
 /*Contacto*/
 
 .formulario {
     text-align: center;
-   
+
 }
 
 .contacto {
@@ -482,20 +486,16 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 5px;
-    margin: 5px 10px;
     border: solid yellow 1px;
     border-radius: 3%;
-    padding-top: 2%;
-    display: inline-block;
-    
+    display: inline-block
 }
 
 .contacto__image {
     width: 40%;
     border-radius: 2%;
     margin: 5px;
-    display: inline-block;
-
+    display: inline-block
 }
 
 input {
@@ -523,9 +523,9 @@ input {
 
     .menu li {
         margin: 1% 2%;
-      
+
     }
-       
+
     .logo {
         width: 20%;
     }
@@ -544,6 +544,9 @@ input {
         width: 89%
     }
 
+    .card-body {
+        width: 80%;
+    }
 
     /*nosotras*/
 
@@ -646,6 +649,12 @@ input {
 
     .contacto__image {
         width: 80%;
+
+
+    }
+
+    .float-end {
+        display: none;
     }
 
     .videoclips iframe {
