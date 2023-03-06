@@ -157,15 +157,15 @@ h4 {
 
 }
 
-.slide {
-    width:65%;
-    position: relative;
-    padding-left: 35%;
+.carousel {
+    padding-inline: 20%;
 }
+
+
 
 .nosotras__fotos {
     color: white;
-    width: 500px;
+    width: 200px;
     border-radius: 20px;
     padding: 1%;
 }
@@ -529,21 +529,13 @@ input {
     .logo {
         width: 20%;
     }
-
-    .ultimasNoticias {
-        font-size: 1rem;
-        width: 390px;
-    }
+    
 
     .mainImage {
         width: 100%;
 
     }
-
-    .mainvideo iframe {
-        width: 89%
-    }
-
+    
     .card-body {
         width: 80%;
     }
