@@ -15,12 +15,12 @@
 
     .card__tittle {
         color: $color_1;
-        font-family: $font-family_1;
+        font-family: $font-family_2;
     }
 
     .card__description {
         color: $color_1;
-        font-family: $font-family_2;
+        font-family: $font-family_1;
         text-align: center;
         line-height: 27px;
     }
@@ -35,4 +35,21 @@
     text-align: center;
     border-right: 10px solid yellow;
     background-color: $background-color_1;
+
+    .card__image {
+        width: 40%;
+        border-radius: 100%;
+    }
+
+    .card__tittle {
+        color: $color_1;
+        font-family: $font-family_2;
+    }
+
+    .card__description {
+        color: $color_1;
+        font-family: $font-family_1;
+        text-align: center;
+        line-height: 27px;
+    }
 }

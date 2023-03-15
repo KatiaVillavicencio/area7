@@ -10,11 +10,10 @@
 $color_1: white;
 $color_2: yellow;
 
-$font-family_1: 'Rock Salt', Arial, Helvetica, sans-serif;
+$font-family_1: Arial, Helvetica, sans-serif;
 $font-family_2: 'Rock Salt', cursive;
 
 $background-color_1: black;
-
 
 
 h1 {
@@ -24,7 +23,7 @@ h1 {
 }
 
 h3 {
-    color: $color_1;
+    color: $color_2;
     font-family: $font-family_1;
     font-weight: bold;
     padding: 3%;
@@ -36,4 +35,5 @@ h4 {
     font-weight: 100;
     font-size: 100%;
     color: $color_1;
+    line-height: 150%;
 }

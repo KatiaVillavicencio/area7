@@ -1,6 +1,9 @@
 .encabezado {
     padding: 2px 0px;
     text-align: center;
+    font-family: $font-family_2;
+    font-size: large;
+    
 }
 
 .logo {
@@ -12,13 +15,17 @@
     li {
         margin: 1px 20px;
         display: inline-block;
+    
+        
+        
     }
     .menu__links {
         text-decoration: none;
         color:$color_1;
         font-size: 20px;
-        margin-inline: 12px;
-        font-family: $font-family_1;
+        margin-inline: 25px;
+        
+      
     }
 }
 

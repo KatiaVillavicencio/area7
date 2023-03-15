@@ -7,17 +7,8 @@
     display: inline-block;
     text-align: center;
     border-left: 10px solid yellow;
-}
+    font-family: $font-family_1;
 
-.nosotras__article2 {
-    color: $color_1;
-    width: 60%;
-    margin: 40px 30px 20px 40px;
-    padding: 30px;
-    border-radius: 10px;
-    display: inline-block;
-    text-align: center;
-    border-right: 10px solid yellow;
 
     .integrantes {
         color: $color_1;
@@ -29,6 +20,7 @@
         li {
             list-style: none;
             text-align: center;
+
         }
     }
 
@@ -36,5 +28,32 @@
         width: 15%;
         border-radius: 10%;
         margin: 10px;
+    }
+}
+
+
+.nosotras__article2 {
+    color: $color_1;
+    width: 60%;
+    margin: 40px 30px 20px 40px;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    border-right: 10px solid yellow;
+    font-family: $font-family_1;
+
+    .integrantes {
+        color: $color_1;
+        width: 100%;
+        font-family: $font-family_1;
+        font-size: 100%;
+        text-align: center;
+
+        li {
+            list-style: none;
+            text-align: center;
+
+        }
     }
 }

@@ -13,23 +13,26 @@ h1 {
 }
 
 h3 {
-  color: white;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding: 3%;
   border-radius: 5%;
 }
 
 h4 {
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 100%;
   color: white;
+  line-height: 150%;
 }
 
 .encabezado {
   padding: 2px 0px;
   text-align: center;
+  font-family: "Rock Salt", cursive;
+  font-size: large;
 }
 
 .logo {
@@ -45,8 +48,7 @@ h4 {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  margin-inline: 12px;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  margin-inline: 25px;
 }
 
 .mainImage {
@@ -62,7 +64,7 @@ h4 {
 .ultimasNoticias {
   width: 500px;
   color: white;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   border-left: px solid yellow;
   padding-inline: 20px;
   border-radius: 4px;
@@ -85,7 +87,7 @@ h4 {
 }
 
 .footer {
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   color: yellow;
   padding: 20px;
@@ -157,6 +159,23 @@ h4 {
   display: inline-block;
   text-align: center;
   border-left: 10px solid yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nosotras__article .integrantes {
+  color: white;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}
+.nosotras__article .integrantes li {
+  list-style: none;
+  text-align: center;
+}
+.nosotras__article .integrantes__foto {
+  width: 15%;
+  border-radius: 10%;
+  margin: 10px;
 }
 
 .nosotras__article2 {
@@ -168,22 +187,18 @@ h4 {
   display: inline-block;
   text-align: center;
   border-right: 10px solid yellow;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nosotras__article2 .integrantes {
   color: white;
   width: 100%;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
   text-align: center;
 }
 .nosotras__article2 .integrantes li {
   list-style: none;
   text-align: center;
-}
-.nosotras__article2 .integrantes__foto {
-  width: 15%;
-  border-radius: 10%;
-  margin: 10px;
 }
 
 .fade-in-top {
@@ -241,11 +256,11 @@ h4 {
 }
 .card .card__tittle {
   color: white;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: "Rock Salt", cursive;
 }
 .card .card__description {
   color: white;
-  font-family: "Rock Salt", cursive;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: 27px;
 }
@@ -260,6 +275,20 @@ h4 {
   border-right: 10px solid yellow;
   background-color: black;
 }
+.card2 .card__image {
+  width: 40%;
+  border-radius: 100%;
+}
+.card2 .card__tittle {
+  color: white;
+  font-family: "Rock Salt", cursive;
+}
+.card2 .card__description {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 27px;
+}
 
 .noticas {
   text-align: center;
@@ -270,7 +299,7 @@ h4 {
   width: 60%;
   color: yellow;
   padding: 30px;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   font-size: 100%;
   line-height: 30px;
@@ -289,7 +318,7 @@ h4 {
   width: 60%;
   color: yellow;
   padding: 30px;
-  font-family: "Rock Salt", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   font-size: 100%;
   line-height: 30px;
@@ -297,6 +326,10 @@ h4 {
   border-radius: 1%;
   border-right: 10px solid yellow;
   display: inline-block;
+}
+.caja2 .caja__imagen {
+  width: 35%;
+  margin: 5%;
 }
 
 .grid {
@@ -392,13 +425,6 @@ h4 {
   border-radius: 3%;
   display: inline-block;
 }
-.contacto .contacto__image {
-  width: 45%;
-  border-radius: 2%;
-  margin: 5px;
-  display: inline-block;
-  padding-right: 4%;
-}
 .contacto .input {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -406,11 +432,19 @@ h4 {
 .contacto .contacto__mensaje {
   border-radius: 10px;
   color: white;
-  font-family: Arial;
+  font-family: "Rock Salt", cursive;
 }
 .contacto .contacto__button {
   border-radius: 10px;
   padding: 1%;
+}
+
+.contacto__image {
+  width: 45%;
+  border-radius: 2%;
+  margin: 5px;
+  display: inline-block;
+  padding-right: 4%;
 }
 
 /*index*/
@@ -477,9 +511,12 @@ h4 {
   .caja2 {
     width: 85%;
   }
-  .caja__imagen {
+  .caja2 .caja__imagen {
     width: 40%;
     margin: 2%;
+  }
+  .card .card-body {
+    width: 89%;
   }
   /*galeria*/
   .grid {
