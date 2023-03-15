@@ -1,0 +1,38 @@
+.card {
+    width: 30%;
+    margin: 40px 30px 20px 40px;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    border-left: 10px solid yellow;
+    background-color: $background-color_1;
+
+    .card__image {
+        width: 40%;
+        border-radius: 100%;
+    }
+
+    .card__tittle {
+        color: $color_1;
+        font-family: $font-family_1;
+    }
+
+    .card__description {
+        color: $color_1;
+        font-family: $font-family_2;
+        text-align: center;
+        line-height: 27px;
+    }
+}
+
+.card2 {
+    width: 30%;
+    margin: 40px 30px 20px 40px;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    border-right: 10px solid yellow;
+    background-color: $background-color_1;
+}

@@ -1,0 +1,30 @@
+
+.scale {
+	transition: 0.5s;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+.color {
+	transition: 0.5s;
+	&:hover {
+		font-size: larger;
+	}
+}
+
+@keyframes fade-in-1 {
+	0% {
+		opacity: 0;
+		scale: 90%;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 2;
+		scale: 100%;
+	}
+}
+.fade-in-1 {
+	animation: fade-in-1 1s linear both;
+}

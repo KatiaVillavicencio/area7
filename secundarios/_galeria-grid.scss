@@ -1,0 +1,50 @@
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	row-gap: 1px;
+	column-gap: 1%;
+	color: $color_1;
+	padding: 1%;
+	grid-template-areas: "diana   fatima   katia" "daniela grupo1  grupo1" "grupo2  grupo2  grupo3" "grupo2  grupo2  grupo4";
+}
+.diana {
+	grid-area: diana;
+	padding: 2%;
+}
+.fatima {
+	grid: fatima;
+	padding: 2%;
+}
+.katia {
+	grid-area: katia;
+	padding: 2%;
+}
+.daniela {
+	grid-area: daniela;
+	padding: 4%;
+}
+.grupo1 {
+	grid-area: grupo1;
+}
+.grupo2 {
+	grid-area: grupo2;
+	padding: 0.8%;
+}
+.grupo3 {
+	grid-area: grupo3;
+	padding: 1%;
+}
+.grupo4 {
+	grid-area: grupo4;
+	padding: 1%;
+}
+.galeria {
+	text-align: center;
+	img {
+		width: 100%;
+		border-radius: 10px;
+	}
+}

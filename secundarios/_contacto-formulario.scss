@@ -1,0 +1,43 @@
+$color_1: white;
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: Arial;
+
+.formulario {
+    text-align: center;
+}
+
+.contacto {
+    color: $color_1;
+    width: 50%;
+    font-size: 100%;
+    font-family: $font-family_1;
+    text-align: center;
+    padding: 5px;
+    border: solid yellow 1px;
+    border-radius: 3%;
+    display: inline-block;
+
+    .contacto__image {
+        width: 45%;
+        border-radius: 2%;
+        margin: 5px;
+        display: inline-block;
+        padding-right: 4%;
+    }
+
+    .input {
+        color: $color_1;
+        font-family: $font-family_1;
+    }
+
+    .contacto__mensaje {
+        border-radius: 10px;
+        color: $color_1;
+        font-family: $font-family_2;
+    }
+
+    .contacto__button {
+        border-radius: 10px;
+        padding: 1%;
+    }
+}

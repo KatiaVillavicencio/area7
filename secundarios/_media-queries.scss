@@ -1,0 +1,107 @@
+
+/*index*/
+
+@media screen and (max-width:767px) {
+	.menu {
+		li {
+			margin: 1% 2%;
+		}
+	}
+	.logo {
+		width: 20%;
+	}
+	.mainImage {
+		width: 100%;
+	}
+	.card-text {
+		width: 95%;
+	}
+	.nosotras__fotos {
+		width: 400px;
+		border-radius: 10px;
+	}
+	#fotoInicios {
+		width: 400px;
+	}
+
+    /*nosotras*/
+
+	.nosotras__article {
+		width: 85%;
+	}
+	.nosotras__article2 {
+		width: 85%;
+	}
+	.integrantes__foto {
+		width: 18%;
+		margin: 1px;
+	}
+	.carousel {
+		padding-inline: 6%;
+	}
+
+    /*musica*/
+	.spotify {
+		width: 390px;
+		padding-left: 0px;
+	}
+	.card {
+		width: 85%;
+	}
+	.card2 {
+		width: 85%;
+	}
+	.derecha {
+		border-right: 10px solid yellow;
+		border-left: 0px solid yellow;
+	}
+	.izquierda {
+		border-left: 10px solid yellow;
+		border-right: 0px solid yellow;
+	}
+
+    /*noticias*/
+	.caja {
+		width: 85%;
+		p {
+			iframe {
+				width: 350px;
+			}
+		}
+	}
+	.caja2 {
+		width: 85%;
+	}
+	.caja__imagen {
+		width: 40%;
+		margin: 2%;
+	}
+
+       /*galeria*/
+	.grid {
+		grid-template-columns: 1fr;
+		grid-template-areas: "diana" "fatima" "katia" "daniela" "grupo1" "grupo2" "grupo3" "grupo4";
+	}
+	.daniela {
+		padding: 2%;
+	}
+
+    /*contacto*/
+	.contacto {
+		width: 85%;
+	}
+	.contacto__image {
+		width: 80%;
+	}
+	.contacto__mensaje {
+		width: 90%;
+	}
+	.float-end {
+		display: none;
+	}
+	.videoclips {
+		iframe {
+			width: 89%;
+		}
+	}
+}
