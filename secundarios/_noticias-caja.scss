@@ -12,9 +12,10 @@
     border-left: 10px solid yellow;
     display: inline-block;
 
-    .caja__imagen {
-        width: 35%;
-        margin: 5%;
+    .iframe {
+        display: flexbox;
+        justify-content: center;
+        padding-inline: 20px;
     }
 }
 
