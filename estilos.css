@@ -313,9 +313,10 @@ h4 {
   border-left: 10px solid yellow;
   display: inline-block;
 }
-.caja .caja__imagen {
-  width: 35%;
-  margin: 5%;
+.caja .iframe {
+  display: flexbox;
+  justify-content: center;
+  padding-inline: 20px;
 }
 
 .caja2 {
@@ -417,39 +418,39 @@ h4 {
 
 .formulario {
   text-align: center;
+  padding-top: 20px;
 }
-
-.contacto {
-  color: white;
-  width: 50%;
+.formulario .contacto {
+  color: black;
+  width: 40%;
   font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  padding: 5px;
-  border: solid yellow 1px;
-  border-radius: 3%;
+  padding: 10px;
+  border-left: solid yellow 10px;
+  border-right: solid yellow 10px;
+  border-radius: 2%;
   display: inline-block;
+  color: white;
 }
-.contacto .input {
+.formulario .contacto .contacto__input {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formulario .contacto .contacto__mensaje {
+  border-radius: 10px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.contacto .contacto__mensaje {
-  border-radius: 10px;
-  color: white;
-  font-family: "Rock Salt", cursive;
-}
-.contacto .contacto__button {
+.formulario .contacto .contacto__button {
   border-radius: 10px;
   padding: 1%;
 }
 
 .contacto__image {
-  width: 45%;
-  border-radius: 2%;
-  margin: 5px;
-  display: inline-block;
-  padding-right: 4%;
+  width: 55%;
+  display: flex;
+  padding-right: 8%;
 }
 
 /*index*/
@@ -531,20 +532,21 @@ h4 {
   .daniela {
     padding: 2%;
   }
-  /*contacto*/
-  .contacto {
-    width: 85%;
-  }
-  .contacto__image {
-    width: 80%;
-  }
-  .contacto__mensaje {
-    width: 90%;
-  }
-  .float-end {
-    display: none;
-  }
   .videoclips iframe {
     width: 89%;
+  }
+  /*contacto*/
+  .formulario {
+    padding-top: 10px;
+  }
+  .formulario .contacto {
+    width: 83%;
+    padding: 0px;
+  }
+  .formulario .contacto__mensaje {
+    width: 90%;
+  }
+  .formulario .float-end {
+    display: none;
   }
 }/*# sourceMappingURL=estilos.css.map */

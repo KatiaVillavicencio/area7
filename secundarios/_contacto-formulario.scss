@@ -1,22 +1,24 @@
 .formulario {
     text-align: center;
-
+    padding-top: 20px;
 
     .contacto {
         color: $background-color_1;
-        width: 50%;
+        width: 40%;
         font-size: 100%;
         font-family: $font-family_1;
         text-align: center;
-        padding: 5px;
-        border: solid yellow 1px;
-        border-radius: 3%;
+        padding: 10px;
+        border-left: solid yellow 10px;
+        border-right: solid yellow 10px;
+        border-radius: 2%;
         display: inline-block;
+        color: $color_1;
+
 
         .contacto__input {
-            color: $color_2;
+            color: $background-color_1;
             font-family: $font-family_1;
-            border-radius: 20%;
         }
 
         .contacto__mensaje {
@@ -33,9 +35,7 @@
 }
 
 .contacto__image {
-    width: 45%;
-    border-radius: 2%;
-    margin: 5px;
-    display: inline-block;
-    padding-right: 4%;
+    width: 55%;
+    display: flex;
+    padding-right: 8%;
 }

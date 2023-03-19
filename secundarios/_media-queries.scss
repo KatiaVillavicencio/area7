@@ -108,26 +108,31 @@
 		padding: 2%;
 	}
 
-	/*contacto*/
-	.contacto {
-		width: 85%;
-	}
-
-	.contacto__image {
-		width: 80%;
-	}
-
-	.contacto__mensaje {
-		width: 90%;
-	}
-
-	.float-end {
-		display: none;
-	}
-
 	.videoclips {
 		iframe {
 			width: 89%;
+		}
+	}
+
+
+	/*contacto*/
+
+	.formulario {
+
+		padding-top: 10px;
+
+		.contacto {
+			width: 83%;
+			padding: 0px;
+		
+		}
+
+		.contacto__mensaje {
+			width: 90%;
+		}
+
+		.float-end {
+			display: none;
 		}
 	}
 }
