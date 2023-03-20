@@ -4,7 +4,7 @@
 
     .contacto {
         color: $background-color_1;
-        width: 40%;
+        width: 42%;
         font-size: 100%;
         font-family: $font-family_1;
         text-align: center;
@@ -35,7 +35,8 @@
 }
 
 .contacto__image {
-    width: 55%;
+    width: 50%;
     display: flex;
     padding-right: 8%;
+    padding-top: 2%;
 }
