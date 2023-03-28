@@ -7,17 +7,7 @@
 	justify-content: center;
 	text-align: center;
 }
-.ultimasNoticias {
-	width: 500px;
-	color: $color_1;
-	font-family: $font-family_1;
-	border-left: px solid yellow;
-	padding-inline: 20px;
-	border-radius: 4px;
-	display: inline-block;
-	text-align: justify;
-	line-height: 26px;
-}
+
 .card {
 	.ultimasNoticias {
 		a {
@@ -28,9 +18,3 @@
 	}
 }
 
-.mainvideo {
-	display: inline-block;
-	iframe {
-		border-radius: 10px;
-	}
-}
