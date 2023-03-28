@@ -19,14 +19,6 @@
 		width: 95%;
 	}
 
-	.nosotras__fotos {
-		width: 400px;
-		border-radius: 10px;
-	}
-
-	#fotoInicios {
-		width: 400px;
-	}
 
 	/*nosotras*/
 
@@ -38,9 +30,11 @@
 		width: 85%;
 	}
 
-	.integrantes__foto {
-		width: 18%;
-		margin: 1px;
+	.integrantes {
+		.integrantes__foto {
+			width: 30%;
+			margin: 1px;
+		}
 	}
 
 	.carousel {

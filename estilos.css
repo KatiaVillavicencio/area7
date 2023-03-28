@@ -431,13 +431,6 @@ h4 {
   .card-text {
     width: 95%;
   }
-  .nosotras__fotos {
-    width: 400px;
-    border-radius: 10px;
-  }
-  #fotoInicios {
-    width: 400px;
-  }
   /*nosotras*/
   .nosotras__article {
     width: 85%;
@@ -445,8 +438,8 @@ h4 {
   .nosotras__article2 {
     width: 85%;
   }
-  .integrantes__foto {
-    width: 18%;
+  .integrantes .integrantes__foto {
+    width: 30%;
     margin: 1px;
   }
   .carousel {
