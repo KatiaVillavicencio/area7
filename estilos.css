@@ -34,7 +34,7 @@ h4 {
 }
 
 .encabezado {
-  padding: 2px 0px;
+  padding: 1px 0px;
   text-align: center;
   font-family: "Rock Salt", cursive;
   font-size: large;
@@ -43,17 +43,6 @@ h4 {
 .logo {
   width: 10%;
   margin: 10px;
-}
-
-.menu li {
-  margin: 1px 20px;
-  display: inline-block;
-}
-.menu .menu__links {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  margin-inline: 25px;
 }
 
 .mainImage {
@@ -66,29 +55,10 @@ h4 {
   text-align: center;
 }
 
-.ultimasNoticias {
-  width: 500px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  border-left: px solid yellow;
-  padding-inline: 20px;
-  border-radius: 4px;
-  display: inline-block;
-  text-align: justify;
-  line-height: 26px;
-}
-
 .card .ultimasNoticias a {
   text-decoration: none;
   font-weight: bold;
   color: yellow;
-}
-
-.mainvideo {
-  display: inline-block;
-}
-.mainvideo iframe {
-  border-radius: 10px;
 }
 
 .footer {
@@ -296,7 +266,7 @@ h4 {
   box-sizing: border-box;
   width: 60%;
   color: yellow;
-  padding: 30px;
+  padding-inline: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   font-size: 100%;
@@ -316,7 +286,7 @@ h4 {
   box-sizing: border-box;
   width: 60%;
   color: yellow;
-  padding: 30px;
+  padding-inline: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   font-size: 100%;

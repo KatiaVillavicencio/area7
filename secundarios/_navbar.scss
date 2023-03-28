@@ -1,5 +1,5 @@
 .encabezado {
-    padding: 2px 0px;
+    padding: 1px 0px;
     text-align: center;
     font-family: $font-family_2;
     font-size: large;
@@ -11,21 +11,5 @@
     margin: 10px;
 }
 
-.menu {
-    li {
-        margin: 1px 20px;
-        display: inline-block;
-    
-        
-        
-    }
-    .menu__links {
-        text-decoration: none;
-        color:$color_1;
-        font-size: 20px;
-        margin-inline: 25px;
-        
-      
-    }
-}
+
 

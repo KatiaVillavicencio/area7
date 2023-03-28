@@ -2,7 +2,7 @@
     box-sizing: border-box;
     width: 60%;
     color: $color_2;
-    padding: 30px;
+    padding-inline: 30px;
     font-family: $font-family_1;
     text-align: justify;
     font-size: 100%;
@@ -11,6 +11,7 @@
     border-radius: 1%;
     border-left: 10px solid yellow;
     display: inline-block;
+    
 
     .iframe {
         display: flexbox;
@@ -23,7 +24,7 @@
     box-sizing: border-box;
     width: 60%;
     color: $color_2;
-    padding: 30px;
+    padding-inline: 30px;
     font-family: $font-family_1;
     text-align: justify;
     font-size: 100%;
